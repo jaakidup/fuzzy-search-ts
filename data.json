@@ -1,0 +1,18 @@
+[
+    {
+        "id": "1",
+        "name": "jaaki",
+        "description": "some details about me, some good, some bad",
+        "tags": [
+            "something", "bicycle", "photography", "running"
+        ]
+    },
+    {
+        "id": "2",
+        "name": "tams",
+        "description": "sweet and sexy, so lovely",
+        "tags": [
+            "running", "bicycle", "photography"
+        ]
+    }
+]
