@@ -1,10 +1,11 @@
-import { FuzzySearch } from "./FuzzySearch"
-let data = require("../data.json")
+import { FuzzySearch, SearchItem } from "./FuzzySearch"
+let data = require("../data.json") as SearchItem[]
 
-const search = new FuzzySearch();
-search.setData = data
+const fs = new FuzzySearch(data, ["tags"]);
+fs.time = true
 
-console.log(search.getData());
+console.log(fs.search("something"));
+
 
 
 
